@@ -5,7 +5,7 @@ type Data = {
   name: string;
 };
 export function getStaticProps (){
-
+ return "getStaticProps"
 }
 export default function handler(
   req: NextApiRequest,
